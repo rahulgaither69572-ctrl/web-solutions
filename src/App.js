@@ -14,14 +14,14 @@ function App() {
         <h2 className="logo">Web Solutions</h2>
 
         <div className="nav-links">
-          <a href="#home">Home</a>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#services">Services</a>
-          <a href="#projects">Projects</a>
-          <a href="#testimonials">Reviews</a>
-          <a href="#contact">Contact</a>
-        </div>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#services">Services</a>
+  <a href="#projects">Projects</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#contact">Contact</a>
+</div>
       </nav>
 
       {/* HERO */}
@@ -212,38 +212,40 @@ function App() {
 
       </section>
 
-      {/* TESTIMONIALS */}
-      <section id="testimonials" className="section">
+{/* REVIEWS */}
+<section id="reviews" className="section">
 
-        <h2>Client Reviews</h2>
+  <h2>Client Reviews</h2>
 
-        <div className="cards">
+  <div className="cards">
 
-          <div className="card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>
-              Rahul delivered an amazing website.
-              Very professional work.
-            </p>
-          </div>
+    <div className="card">
+      <h3>⭐⭐⭐⭐⭐</h3>
+      <p>
+        Rahul delivered an amazing website with a modern
+        design and excellent performance. Highly recommended.
+      </p>
+    </div>
 
-          <div className="card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>
-              Excellent communication and modern design.
-            </p>
-          </div>
+    <div className="card">
+      <h3>⭐⭐⭐⭐⭐</h3>
+      <p>
+        Professional work, timely delivery and great
+        communication throughout the project.
+      </p>
+    </div>
 
-          <div className="card">
-            <h3>⭐⭐⭐⭐⭐</h3>
-            <p>
-              Highly recommended for business websites.
-            </p>
-          </div>
+    <div className="card">
+      <h3>⭐⭐⭐⭐⭐</h3>
+      <p>
+        Our business website looks fantastic and works
+        perfectly on all devices.
+      </p>
+    </div>
 
-        </div>
+  </div>
 
-      </section>
+</section>
 
       {/* CONTACT */}
       <section id="contact" className="section">
