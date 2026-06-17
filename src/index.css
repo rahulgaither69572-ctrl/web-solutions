@@ -311,59 +311,56 @@ a{
 /* ===== FOOTER ===== */
 
 .footer{
-  text-align:center;
-
-  padding:30px;
-
-  background:#020617;
-
-  border-top:
-  1px solid rgba(255,255,255,.08);
+  background:#020b2d;
+  padding:80px 8% 30px;
+  border-top:1px solid rgba(255,255,255,0.08);
 }
 
-/* ===== MOBILE ===== */
+.footer-container{
+  max-width:1400px;
+  margin:auto;
 
-@media(max-width:768px){
+  display:grid;
+  grid-template-columns:2fr 1fr 1fr 1.5fr;
 
-  .navbar{
-    flex-direction:column;
-    gap:15px;
-    padding:20px;
-  }
+  gap:60px;
+  align-items:start;
+}
 
-  .nav-links{
-    flex-wrap:wrap;
-    justify-content:center;
-  }
+.footer-col h2{
+  font-size:32px;
+  white-space:nowrap;
+}
 
-  .nav-links a{
-    margin:8px;
-  }
+.footer-col h3{
+  color:#fff;
+  font-size:22px;
+  margin-bottom:25px;
+}
 
-  .hero h1{
-    font-size:42px;
-  }
+.contact-email{
+  font-size:15px;
+}
 
-  .hero h3{
-    font-size:22px;
-  }
+.footer-col a{
+  display:block;
+  color:#94a3b8;
+  text-decoration:none;
+  margin-bottom:15px;
+  font-size:16px;
+  transition:.3s;
+}
 
-  .profile-img{
-    width:150px;
-    height:150px;
-  }
+.footer-col a:hover{
+  color:#38bdf8;
+  transform:translateX(5px);
+}
 
-  .section h2{
-    font-size:34px;
-  }
-
-  .card{
-    width:100%;
-    max-width:330px;
-  }
-
-  .project-card{
-    width:100%;
-    max-width:340px;
-  }
+.footer-bottom{
+  text-align:center;
+  margin-top:60px;
+  padding-top:30px;
+  border-top:1px solid rgba(255,255,255,.08);
+  color:#64748b;
+  font-size:18px;
 }

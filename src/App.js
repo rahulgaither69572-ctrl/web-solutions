@@ -247,30 +247,51 @@ function App() {
 
 </section>
 
-      {/* CONTACT */}
-      <section id="contact" className="section">
 
-        <h2>Contact Me</h2>
+      
+<footer className="footer">
 
-        <p>📞 9996860411</p>
-        <p>📧 rahulgaither69572@gmail.com</p>
+  <div className="footer-container">
 
-        <a
-          href="https://wa.me/919996860411?text=Hi Rahul, I'm interested in your website services."
-          className="btn"
-        >
-          Chat on WhatsApp
-        </a>
+    <div className="footer-col">
+      <h2>Web Solutions</h2>
+      <p>
+        Professional Website Development,
+        Landing Pages, Business Websites
+        and Modern Web Solutions.
+      </p>
+    </div>
 
-      </section>
+    <div className="footer-col">
+      <h3>Quick Links</h3>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+    </div>
 
-      {/* FOOTER */}
-      <footer className="footer">
-        <p>
-          © 2026 Rahul Kumar Portfolio.
-          All Rights Reserved.
-        </p>
-      </footer>
+    <div className="footer-col">
+      <h3>Services</h3>
+      <a href="#services">Business Website</a>
+      <a href="#services">Portfolio Website</a>
+      <a href="#services">Landing Page</a>
+      <a href="#services">Website Redesign</a>
+    </div>
+
+    <div className="footer-col">
+      <h3>Contact</h3>
+      <p>📍 Hisar, Haryana</p>
+      <p>📞 +91 9996860411</p>
+      <p>📧rahulgaither69572@gmail.com</p>
+    </div>
+
+  </div>
+
+  <div className="footer-bottom">
+    © 2026 Web Solutions. All Rights Reserved.
+  </div>
+
+</footer>
 
     </div>
   );
