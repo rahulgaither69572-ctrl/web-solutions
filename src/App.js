@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import profile from "./profile.png";
 import project1 from "./project1.png";
@@ -6,23 +6,36 @@ import project2 from "./project2.png";
 import project3 from "./project3.png";
 
 function App() {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
 
       {/* NAVBAR */}
-      <nav className="navbar">
-        <h2 className="logo">Web Solutions</h2>
+<nav className="navbar">
 
-        <div className="nav-links">
-  <a href="#home">Home</a>
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#services">Services</a>
-  <a href="#projects">Projects</a>
-  <a href="#reviews">Reviews</a>
-  <a href="#contact">Contact</a>
-</div>
-      </nav>
+  <h2 className="logo">Web Solutions</h2>
+
+  <div
+    className="menu-icon"
+    onClick={() => setMenuOpen(!menuOpen)}
+  >
+    ☰
+  </div>
+
+  <div className={menuOpen ? "nav-links active" : "nav-links"}>
+
+    <a href="#home" onClick={() => setMenuOpen(false)}>Home</a>
+    <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+    <a href="#skills" onClick={() => setMenuOpen(false)}>Skills</a>
+    <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
+    <a href="#projects" onClick={() => setMenuOpen(false)}>Projects</a>
+    <a href="#reviews" onClick={() => setMenuOpen(false)}>Reviews</a>
+    <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
+
+  </div>
+
+</nav>
+      
 
       {/* HERO */}
 <section id="home" className="hero">
@@ -276,13 +289,14 @@ function App() {
 
   </div>
   
-  <div className="contact-btn"></div>
+  <div className="contact-btn">
   <a
     href="https://wa.me/919996860411?text=Hi Rahul, I want a website."
     className="btn"
   >
     Chat on WhatsApp
   </a>
+</div>
 
 </section>
 
