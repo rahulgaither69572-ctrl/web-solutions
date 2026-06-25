@@ -33,11 +33,13 @@ function App() {
     className="profile-img"
   />
 
-  <h1>Rahul Kumar</h1>
+  <h1 data-aos="fade-up">Rahul Kumar</h1>
 
-  <h3>Full Stack Web Developer 🚀</h3>
+  <h3 data-aos="fade-up" data-aos-delay="200">
+  Full Stack Web Developer 🚀
+</h3>
 
-  <p className="hero-tagline">
+  <p className="hero-tagline" data-aos="fade-up" data-aos-delay="400">
     Turning Ideas Into Powerful Digital Solutions
   </p>
 
@@ -47,7 +49,7 @@ function App() {
     personal brands.
   </p>
 
-  <div className="hero-stats">
+  <div className="hero-stats" data-aos="zoom-in" data-aos-delay="600">
 
     <div className="stat-box">
       <h2>10+</h2>
@@ -67,9 +69,12 @@ function App() {
   </div>
 
   <a
-    href="https://wa.me/919996860411?text=Hi Rahul, I am interested in getting a website for my business."
-    className="btn"
-  >
+  href="https://wa.me/919996860411?text=Hi Rahul, I am interested in getting a website for my business."
+  className="btn"
+  data-aos="fade-up"
+  data-aos-delay="800"
+>
+
     Hire Me
   </a>
 
@@ -97,32 +102,32 @@ function App() {
 
         <div className="cards">
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>HTML5</h3>
             <p>Semantic & SEO Friendly Structure</p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>CSS3</h3>
             <p>Modern Responsive UI Design</p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>JavaScript</h3>
             <p>Interactive User Experience</p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>React JS</h3>
             <p>Fast & Dynamic Web Applications</p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>GitHub</h3>
             <p>Version Control & Deployment</p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>Vercel</h3>
             <p>Website Hosting & Deployment</p>
           </div>
@@ -138,7 +143,7 @@ function App() {
 
         <div className="cards">
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>Business Websites</h3>
             <p>
               Professional websites for companies,
@@ -146,7 +151,7 @@ function App() {
             </p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>Portfolio Websites</h3>
             <p>
               Personal portfolio websites for
@@ -154,28 +159,28 @@ function App() {
             </p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>E-Commerce Websites</h3>
             <p>
               Online store and product showcase websites.
             </p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>Gym & Fitness Websites</h3>
             <p>
               Modern websites for gyms and fitness trainers.
             </p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>Salon Websites</h3>
             <p>
               Premium websites for salons and barbers.
             </p>
           </div>
 
-          <div className="card">
+          <div className="card" data-aos="zoom-in">
             <h3>Restaurant & Cafe Websites</h3>
             <p>
               Beautiful websites for cafes and restaurants.
@@ -193,17 +198,17 @@ function App() {
 
         <div className="project-grid">
 
-          <div className="project-card">
+          <div className="project-card" data-aos="fade-up">
             <img src={project1} alt="Skill Solutions" />
             <h3>Skill Solutions</h3>
           </div>
 
-          <div className="project-card">
+          <div className="project-card" data-aos="fade-up">
             <img src={project2} alt="Gym Website" />
             <h3>Gym Website</h3>
           </div>
 
-          <div className="project-card">
+          <div className="project-card" data-aos="fade-up">
             <img src={project3} alt="Developers Site" />
             <h3>Developers Site</h3>
           </div>
@@ -219,7 +224,7 @@ function App() {
 
   <div className="cards">
 
-    <div className="card">
+    <div className="card" data-aos="zoom-in">
       <h3>⭐⭐⭐⭐⭐</h3>
       <p>
         Rahul delivered an amazing website with a modern
@@ -227,7 +232,7 @@ function App() {
       </p>
     </div>
 
-    <div className="card">
+    <div className="card" data-aos="zoom-in">
       <h3>⭐⭐⭐⭐⭐</h3>
       <p>
         Professional work, timely delivery and great
@@ -235,7 +240,7 @@ function App() {
       </p>
     </div>
 
-    <div className="card">
+    <div className="card" data-aos="zoom-in">
       <h3>⭐⭐⭐⭐⭐</h3>
       <p>
         Our business website looks fantastic and works
@@ -247,6 +252,39 @@ function App() {
 
 </section>
 
+{/* CONTACT */}
+<section id="contact" className="section">
+
+  <h2>Contact Me</h2>
+
+  <div className="cards">
+
+    <div className="card" data-aos="zoom-in">
+      <h3>📍 Location</h3>
+      <p>Hisar, Haryana</p>
+    </div>
+
+    <div className="card" data-aos="zoom-in">
+      <h3>📞 Phone</h3>
+      <p>+91 9996860411</p>
+    </div>
+
+    <div className="card" data-aos="zoom-in">
+      <h3>📧 Email</h3>
+      <p>rahulgaither69572@gmail.com</p>
+    </div>
+
+  </div>
+  
+  <div className="contact-btn"></div>
+  <a
+    href="https://wa.me/919996860411?text=Hi Rahul, I want a website."
+    className="btn"
+  >
+    Chat on WhatsApp
+  </a>
+
+</section>
 
       
 <footer className="footer">
