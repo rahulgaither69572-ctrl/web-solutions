@@ -478,6 +478,106 @@ color:#94a3b8;
 
 }
 
+.email-link{
+  color:inherit;
+  text-decoration:none;
+  font:inherit;
+  font-weight:500;
+  letter-spacing:0;
+  display:inline-block;
+  max-width:100%;
+  overflow-wrap:break-word;
+  word-break:normal;
+  transition:.3s;
+}
+
+.email-link:visited{
+  color:inherit;
+}
+
+.email-link:hover{
+  color:#38bdf8;
+}
+
+#contact .email-link,
+#contact .email-link:visited{
+  color:white;
+}
+
+.footer-col .email-link,
+.footer-col .email-link:visited{
+  color:#94a3b8;
+}
+
+.footer-col .email-link:hover{
+  color:#38bdf8;
+  padding-left:0;
+}
+
+.phone-link{
+  color:inherit;
+  text-decoration:none;
+  font:inherit;
+  font-weight:500;
+  letter-spacing:0;
+  display:inline-block;
+  transition:.3s;
+}
+
+.phone-link:visited{
+  color:inherit;
+}
+
+.phone-link:hover{
+  color:#38bdf8;
+}
+
+#contact .phone-link,
+#contact .phone-link:visited{
+  color:white;
+}
+
+.footer-col .phone-link,
+.footer-col .phone-link:visited{
+  color:#94a3b8;
+}
+
+.footer-col .phone-link:hover{
+  color:#38bdf8;
+  padding-left:0;
+}
+
+.location-link{
+  color:inherit;
+  text-decoration:none;
+  font:inherit;
+  font-weight:500;
+  transition:.3s;
+}
+
+.location-link:visited{
+  color:inherit;
+}
+
+.location-link:hover{
+  color:#38bdf8;
+}
+
+#contact .location-link,
+#contact .location-link:visited{
+  color:white;
+}
+
+.footer-col .location-link,
+.footer-col .location-link:visited{
+  color:#94a3b8;
+}
+
+.footer-col .location-link:hover{
+  color:#38bdf8;
+  padding-left:0;
+}
+
 /* ================= MOBILE RESPONSIVE ================= */
 
 @media (max-width:768px){
@@ -651,7 +751,7 @@ color:#94a3b8;
     font-size:25px;
     padding:26px 62px;
   }
-
+  
   /* ===== FOOTER ===== */
 
   .footer{

@@ -243,6 +243,7 @@ function App() {
         Rahul delivered an amazing website with a modern
         design and excellent performance. Highly recommended.
       </p>
+      <h4 className="review-name">- Amit Kumar</h4>
     </div>
 
     <div className="card" data-aos="zoom-in">
@@ -251,6 +252,7 @@ function App() {
         Professional work, timely delivery and great
         communication throughout the project.
       </p>
+      <h4 className="review-name">- Shubham Sharma</h4>
     </div>
 
     <div className="card" data-aos="zoom-in">
@@ -259,6 +261,7 @@ function App() {
         Our business website looks fantastic and works
         perfectly on all devices.
       </p>
+      <h4 className="review-name">- Harsh</h4>
     </div>
 
   </div>
@@ -274,17 +277,37 @@ function App() {
 
     <div className="card" data-aos="zoom-in">
       <h3>📍 Location</h3>
-      <p>Hisar, Haryana</p>
+      <p>
+  <a
+    href="https://maps.app.goo.gl/6N7FMUJowvifGgC27"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="location-link"
+  >
+    Hisar, Haryana
+  </a>
+</p>
     </div>
 
     <div className="card" data-aos="zoom-in">
       <h3>📞 Phone</h3>
-      <p>+91 9996860411</p>
+      <p>
+  <a href="tel:+919996860411" className="phone-link">
+    +91 9996860411
+  </a>
+</p>
     </div>
 
     <div className="card" data-aos="zoom-in">
       <h3>📧 Email</h3>
-      <p>rahulgaither69572@gmail.com</p>
+      <p>
+  <a
+    href="mailto:rahulgaither69572@gmail.com?subject=Website%20Inquiry&body=Hi%20Rahul,%0A%0AI%20visited%20your%20portfolio%20and%20I%20want%20a%20website.%0A%0AMy%20business%20details%20are:"
+    className="email-link"
+  >
+    rahulgaither69572@gmail.com
+  </a>
+</p>
     </div>
 
   </div>
@@ -332,9 +355,30 @@ function App() {
 
     <div className="footer-col">
       <h3>Contact</h3>
-      <p>📍 Hisar, Haryana</p>
-      <p>📞 +91 9996860411</p>
-      <p>📧rahulgaither69572@gmail.com</p>
+      <p>
+  <a
+    href="https://maps.app.goo.gl/6N7FMUJowvifGgC27"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="location-link"
+  >
+    Hisar, Haryana
+  </a>
+</p>
+      <p>
+  📞{" "}
+  <a href="tel:+919996860411" className="phone-link">
+    +91 9996860411
+  </a>
+</p>
+      <p>
+  <a
+    href="mailto:rahulgaither69572@gmail.com?subject=Website%20Inquiry&body=Hi%20Rahul,%0A%0AI%20visited%20your%20portfolio%20and%20I%20want%20a%20website.%0A%0AMy%20business%20details%20are:"
+    className="email-link"
+  >
+    📧 rahulgaither69572@gmail.com
+  </a>
+</p>
     </div>
 
   </div>
